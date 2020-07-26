@@ -100,7 +100,7 @@ resource "aws_instance" "inst" {
   }
 
   tags = {
-    Name = "TASK2-OS"
+    Name = "TASK-OS"
   }
 
 }
