@@ -73,6 +73,6 @@ viewer_certificate {
 }
 resource "null_resource" "webip"  {
  provisioner "local-exec" {
-     command = "echo  ${aws_cloudfront_distribution.webcloud.domain_name} > cloudfront.txt"
+     command = "echo  ${aws_cloudfront_distribution.webcloud.domain_name} > Cloudfront.txt"
    }
 }
